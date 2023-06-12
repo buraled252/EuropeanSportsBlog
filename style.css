@@ -13,7 +13,7 @@ body {
 }
 /* Navigation Bar Styling */
 .logo img {
-    height: 50px;
+    width: 20px;
 }
 .navbar {
     font-size: 1.5rem;
@@ -74,10 +74,12 @@ body {
 }
 .home-content {
     overflow: auto;
+    margin: 20px;
+    margin-top: 90px;
     background-color: rgba(14, 14, 58, 0.75);
     height: 70vh;
     text-align: center;
-    margin: 0;
+    width: 100%;
 }
 .home-content h2 {
     padding-top: 20px;
@@ -95,6 +97,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     height: 75%;
+    width: 100%;
     align-items: center;
     justify-content: center;
     gap: 20px;
@@ -186,8 +189,9 @@ body {
     align-items: center;
     background-color: darkslateblue; 
     padding: 30px; 
-    height: auto;
+    height: 50vh;
     width: 100%;
+
   }
   
   .contact-content {
@@ -232,6 +236,7 @@ body {
     font-size: 1rem;
     background-color: #14213D;
     padding: 10px;
+    width: 100%;
 }
 .footer-content a {
     color: aliceblue;
